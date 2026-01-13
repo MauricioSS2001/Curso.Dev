@@ -1,0 +1,2 @@
+# 🚗 Pista Rápida: Dia 2
+Esta é a primeira **Pista Rápida (FastTrack)** do curso.dev e nela eu dou um rápido resumo dos principais pontos que foram discutidos ao longo das aulas encontradas no **Dia 2**. Fora isso, eu incentivo pessoas com mais senioridade na área de tecnologia a conferirem as aulas na **Pista Lenta**, pois nelas serão encontradas analogias que podem ser utilizadas para a pessoa explicar estes conceitos para outras pessoas.
