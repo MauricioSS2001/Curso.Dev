@@ -1,0 +1,10 @@
+# 🚗 Pista Rápida: Dia 3
+
+Nesta Pista Rápida são tratados assuntos **muito** importantes para o projeto, como por exemplo: qual versão utilizar do **Node.js**, **Next.js**, **React** e **React DOM**.
+
+E caso você já saiba instalar as dependências e queira só copiar e colar as versões que apareceram no vídeo, segue abaixo:
+
+-   `nodejs` `lts/hydrogen`
+-   `next@13.1.6`
+-   `react@18.2.0`
+-   `react-dom@18.2.0`
