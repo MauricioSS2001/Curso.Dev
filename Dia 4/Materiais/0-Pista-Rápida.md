@@ -1,0 +1,3 @@
+# 🚗 Pista Rápida: Dia 4
+
+Eu não podia começar esta **Pista Rápida** de outra forma, a não ser **agradecendo a participação de todos na plataforma** e destacando alguns **comentários** com palavras que me empurram **lá pra cima** e me dão um gás ainda mais forte pra eu **não medir esforços e criar as melhores aulas do mundo**. E é injusto a quantidade de comentários que coloquei ali no vídeo em comparação a todos os comentários deixados na plataforma, mas o vídeo ficaria abarrotado de comentários... vocês são **apaixonantes** 😍 💪 🤝

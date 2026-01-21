@@ -1,0 +1,88 @@
+# Protocolos e rodando o site de forma local
+
+É uma **honra** ter uma aula como esta aqui na plataforma, pois ela irá fazer você **notar** a internet de uma forma **diferente**, pois você vai começar a **ver** e **entender** Protocolos, que são a base de toda a comunicação que acontece entre um **Cliente** e **Servidor**, desde o seu navegador ao saber se comunicar por `HTTP`, até a sua rede que sabe se comunicar por `TCP` através do `IP`. Além disso, a missão desta aula é levantar o **Servidor Web**... será que vamos conseguir?
+
+Vídeo do UDP vs TCP: [https://youtu.be/ZEEBsq3eQmg](https://youtu.be/ZEEBsq3eQmg)
+
+## Perguntas frequentes
+
+O erro "Couldn't find a `pages` directory" está correto?  
+
+Sim, este é o erro esperado nesta aula! Neste momento do curso, ainda não criamos a pasta `pages`, então o Next.js não consegue encontrar os arquivos necessários para iniciar a aplicação. Isso será resolvido nas próximas aulas.
+
+**Observação:** Dependendo da versão do Next.js que você estiver usando, a mensagem pode variar um pouco. Desde a versão 14, a mensagem já aparece mais clara:
+
+    Error: > Couldn't find any `pages` or `app` directory. Please create one under the project root
+    
+
+Lembrando que a recomendação é que você _utilize a mesma versão do Next que o Filipe mostra na aula para evitar qualquer tipo de atrito_, especialmente se você for iniciante. 🤝
+
+* * *
+
+Por que o comando `next dev` não funciona direto no terminal? Por que preciso criar o script no `package.json`?  
+
+Nós só conseguimos rodar um comando diretamente no terminal se a instalação dele for **global**. E isso independentemente de qual pasta nós estivermos navegando.
+
+Quando o Filipe disse "local a esse projeto", ele quer dizer exatamente isso: o Next.js foi instalado apenas dentro da pasta daquele projeto específico. Isso significa que as dependências ficam salvas no arquivo `package.json` e na pasta `node_modules` do projeto.
+
+**Instalação local vs global:**
+
+-   **Local (recomendado):** O Next está instalado na máquina, só que _localmente_, somente no repositório. Se você criar outro repositório, não conseguirá usar o Next.js sem instalá-lo novamente nesse novo projeto. Essa é a forma recomendada porque cada projeto pode ter suas próprias versões das dependências.
+    
+-   **Global:** Você instalaria o Next.js na máquina inteira usando `npm install -g next`, e ele ficaria disponível para todos os projetos. Porém, isso não é recomendado porque diferentes projetos podem precisar de versões diferentes do Next.js, e isso pode gerar conflitos.
+    
+
+Por isso, criamos o script no `package.json`, e quando executamos `npm run dev`, o npm sabe onde encontrar o executável do Next dentro da pasta `node_modules`. 🤝
+
+* * *
+
+Estou recebendo um erro diferente do esperado ao rodar `npm run dev`. O que pode ser?  
+
+Verifique se há algum erro de digitação no seu arquivo `package.json`. Erros comuns incluem:
+
+**1\. Comando digitado errado:**
+
+Onde deveria estar `"next dev"`, pode estar escrito `"ext dev"` (faltando o "n"):
+
+    // ❌ Errado
+    "scripts": {
+      "dev": "ext dev"
+    }
+    
+    // ✅ Correto
+    "scripts": {
+      "dev": "next dev"
+    }
+    
+
+**2\. Falta de espaço após os dois pontos:**
+
+    // ❌ Errado
+    "dev":"next dev"
+    
+    // ✅ Correto
+    "dev": "next dev"
+    
+
+Após corrigir, tente executar `npm run dev` novamente. 💪
+
+* * *
+
+Estou usando WSL e o projeto não está funcionando corretamente. O que fazer?  
+
+Se você está utilizando o WSL, mas o seu projeto está salvo em uma pasta no sistema de arquivos do Windows (por exemplo, `/mnt/c/...`), o ideal é que ele esteja salvo **dentro da sua distribuição Linux no WSL**.
+
+Não é recomendado trabalhar cruzando os sistemas de arquivos do WSL e do Windows, por conta de problemas de performance. Você pode conferir mais detalhes sobre isso na [documentação oficial da Microsoft](https://learn.microsoft.com/pt-br/windows/wsl/filesystems#file-storage-and-performance-across-file-systems).
+
+Portanto, o melhor a se fazer é salvar o seu projeto dentro do WSL, usando o diretório raiz do sistema de arquivos do Linux:
+
+    /home/<seu-usuario>/meu-projeto
+    
+
+**Para abrir o VS Code no diretório correto:**
+
+Se você já copiou o projeto para dentro do WSL, para o terminal do VS Code abrir dentro do WSL, você precisa:
+
+1.  Abrir o terminal do Linux no WSL
+2.  Navegar para dentro da pasta do projeto no WSL
+3.  Executar o comando `code .`
