@@ -1,0 +1,3 @@
+# Onde fica o "Git"? E como era feito antes disso?
+
+Nesta Pista Lenta nós vamos revisitar a história dos versionadores de código para entender a diferença entre o modelo `centralizado` e `distribuído`, e também pincelar como que as pessoas faziam para lidar com versionamento antes de inventarem os controladores de versão. Além disso, mostro como utilizar o **Local History**, um recurso muito interessante do VSCode, falo sobre **Merge Conflict** e onde que fica a pasta `.git`.
