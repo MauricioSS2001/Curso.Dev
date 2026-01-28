@@ -1,0 +1,3 @@
+# Git Push
+
+Nesta Pista Lenta vamos aprender a usar o `git push` e qual o resultado disto no `origin` (o repositório de origem). Isto é uma mecânica **fundamental** para você utilizar no compartilhamento de novas melhorias no repositório, sejam elas novas features, ajustes ou qualquer coisa que empurre a **linha do tempo** do seu repositório para frente. Falando nisso, nós iremos também ver de forma superficial duas linhas do tempo importantes, a `origin/main` e `local/main`.

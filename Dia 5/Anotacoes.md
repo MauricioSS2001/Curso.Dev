@@ -115,6 +115,31 @@ Cada `commit` é equivalente a uma **"foto" (uma versão) do projeto**.
 - **<i>Untracked:</i>** Arquivo que não existia no <i>commit</i> anterior.
 <br>
 
+## Criando um commit
+Para criar um commit basta adicionar os arquivos desejados e <i>commitar</i>.
+<br>
+
+**Adiciona os arquivos para o <i>commit</i>.**
+~~~ git
+git add arquivo1
+~~~
+**Nota:** Para incluir vários arquivos em um <i>commit</i>, basta inclui-los no comando com espaço entre eles.
+~~~ git
+git add arquivo1 arquivo2 arquivo3
+~~~
+
+<br>
+
+**<i>Commita</i> as alterações.**
+~~~ git
+git commit
+~~~
+<br>
+
+**Mensagem de <i>commit<i>**
+Após criar o commit, basta **adicionar uma mensagem no arquivo de texto que aparece, salvar e fechar**.
+<br>
+
 ## Status de um repositório
 Para verificar o status dos arquivos em relação ao `git`, utilizam-se os comandos abaixo no terminal (`git`).
 <br>
