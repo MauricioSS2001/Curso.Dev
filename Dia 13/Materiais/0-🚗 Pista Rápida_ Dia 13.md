@@ -1,0 +1,3 @@
+# 🚗 Pista Rápida: Dia 13
+
+Diferente da Pista Rápida do **Dia 12** que foi **bem longa**, esta Pista Rápida aqui vai ser bem curta e rápida mesmo, não porque não tem conhecimentos importantes nas duas Pistas Lentas do dia, porque tem sim, mas é aquele tipo de conhecimento **especial** que revive acontecimentos da vida real de quem trabalha com tecnologia e que só vai fazer sentido acompanhar pela Pista Lenta mesmo... mas vou resumir o que aconteceu 🤝
