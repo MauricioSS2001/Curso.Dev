@@ -1,0 +1,3 @@
+# 🚗 Pista Rápida: Dia 15
+
+Eu não to brincando quando eu falo que o **Dia 15** pode mudar de verdade a sua vida na programação, isso porque ela ficou reservada para falar sobre **Testes Automatizados** e que é um tema que, se você engata, se você entende os benefícios e usa pra programar de uma forma melhor e mais despreocupada, muda completamente o seu fluxo de trabalho e é um caminho sem volta... **sem volta mesmo!**
