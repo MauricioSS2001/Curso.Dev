@@ -1,0 +1,3 @@
+# 🚗 Pista Rápida: Dia 16
+
+O `Dia 16` é mais um daqueles dias **especiais** aqui no curso.dev porque mistura parte **teórica**, parte **prática** e também como ser um **profissional melhor**. E eu diria que esta última parte de ser um profissional melhor é o que faz **grudar na sua mente** a parte teórica e prática, tanto que no final dessa Pista Rápida aqui eu adicionei uma **mensagem extra** que eu não coloquei em nenhuma Pista Lenta 💪

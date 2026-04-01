@@ -1,0 +1,3 @@
+# Encostando a mão no Protocolo HTTP 🔥
+
+Essa aula vai ser muito massa, porque eu e você vamos encostar a mão no protocolo `HTTP` e isso não somente vai esclarecer na sua mente muita coisa sobre tudo o que existe na internet, como também vai ser a base para conseguir entender de fato (ou revisitar) muita coisa importante como: cookies, cabeçalhos, status codes, mas tirando toda a **magia** de onde esses dados vem, e tudo isso vai colocar você um passo mais próximo da senioridade, ou pelo menos, vai fazer você conseguir ter conversas sérias, muito mais avançadas e **certeiras** quando o contexto pedir por uma pessoa que tenha **maturidade** e **experiência** nesse assunto.
