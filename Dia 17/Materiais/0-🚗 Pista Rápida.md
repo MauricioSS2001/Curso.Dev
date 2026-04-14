@@ -1,0 +1,3 @@
+# 🚗 Pista Rápida: Dia 17
+
+Além de conversarmos sobre tudo que foi feito no `Dia 17`, como as `3` partes que eu considero na escolha de um Banco de Dados, entender o motivo do Docker ter "dominado" o mundo das virtualizações, depois como subir e se conectar a uma instância de Postgres de forma local utilizando o Docker Compose, além de tudo isso, eu passo mais um pouco da minha visão sobre o que faz um sênior ser um sênior na nossa área 💪
