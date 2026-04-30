@@ -712,7 +712,7 @@ psql --host=localhost --username=postgres --port=5432
 O erro aconteceu porque as alterações não entraram em vigor no `Container`. Poderíamos **destruir e rodar novamente o `Container`** por meio dos comandos:
 <br>
 
-**Destruindo o ``Container`:**
+**Destruindo o `Container`:**
 ~~~ Terminal
 docker compose down
 ~~~
